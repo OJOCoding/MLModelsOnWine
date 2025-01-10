@@ -3,7 +3,9 @@ Dataset used: Red Wine Quality
 Model tested: Logistic Regression,Random Forest Classifier, Support Vector Machine
 This file is used to test the initial model that was created. The model is tested on the test data and the accuracy is calculated.
 
-Results: Based on the findings, the best model to classify our dataset is the Random Forest Classifier with a Accuracy of 0.938
+Results: Based on the findings, the best model to classify our dataset is the Random Forest Classifier with a Accuracy of 0.938. 
+
+Conclussions: The classification model achieved an accuracy of 93.8%, which is quite high. This suggests that the dataset is well-suited for classification tasks. The Random Forest Classifier performed the best among the models tested, indicating that it is a good choice for this dataset.
 '''
 
 # Importing necessary libraries

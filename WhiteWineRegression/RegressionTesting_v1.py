@@ -3,7 +3,13 @@ Dataset used: White Wine Quality
 Model tested: Linear Regression, Random Forest Regressor, Support Vector Machine
 This file is used to test the initial model that was created. The model is tested on the test data and the accuracy is calculated.
 
-Results: Based on the findings, the best model to classify our dataset is the Random Forest Classifier with a Accuracy of 0.938
+Results: Based on the findings, the best model to classify our dataset is the Random Forest Classifier with a Accuracy of 0.48. 
+The v1 version of the code uses different models in order to test the dataset. The best model is then saved to a file. 
+V2 uses a Grid Search to find the best parameters for the Random Forest Regressor and Support Vector Regressor. 
+Whereas V3 uses Polynomial Features and a Randomized Search to improve the model. The best R2 found is 0.48 which suggests that the regression model explains only 48% of the variance in wine quality, meaning it struggles to capture the underlying patterns.
+
+Conclussions: Since classification achieved 98% accuracy, the dataset is likely more suitable for classification than regression. The ordinal nature of wine quality aligns better with classification models.
+
 '''
 
 # Import necessary libraries
